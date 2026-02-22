@@ -1,0 +1,67 @@
+# -----------------------------
+# Terraform Core
+# -----------------------------
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# -----------------------------
+# Terraform Variable Files
+# -----------------------------
+
+*.tfvars
+*.tfvars.json
+
+# If you keep a template, use this pattern instead:
+# !example.tfvars
+
+# -----------------------------
+# Local Environment Files
+# -----------------------------
+
+.env
+.env.*
+*.env
+
+# -----------------------------
+# Secrets & Credentials
+# -----------------------------
+
+secrets.auto.tfvars
+credentials.tfvars
+client_secret.txt
+*.pem
+*.key
+*.pfx
+*.cer
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# -----------------------------
+# OS Junk
+# -----------------------------
+
+Thumbs.db
+Desktop.ini
+
+# -----------------------------
+# Logs
+# -----------------------------
+
+*.log
